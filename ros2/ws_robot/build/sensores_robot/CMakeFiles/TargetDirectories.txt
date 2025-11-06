@@ -1,0 +1,11 @@
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/uninstall.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/sensores_robot_uninstall.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/sensores_distancia_node.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/sensores_reflectancia_node.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/test.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/edit_cache.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/rebuild_cache.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/list_install_components.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/install.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/install/local.dir
+/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot/CMakeFiles/install/strip.dir

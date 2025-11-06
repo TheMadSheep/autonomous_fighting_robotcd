@@ -1,0 +1,10 @@
+
+pacote 1: sensores_robot
+    /sensores_distancia_node
+        /sensor_distancia_1
+        /sensor_distancia_2
+    /sensores_reflectancia_node
+        /sensor_reflectancia_1
+        /sensor_reflectancia_2
+
+

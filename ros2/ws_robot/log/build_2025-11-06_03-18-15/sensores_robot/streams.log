@@ -1,0 +1,27 @@
+[0.022s] Invoking command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot -- -j20 -l20
+[0.077s] [ 50%] Built target sensores_reflectancia_node
+[0.080s] [ 75%] [32mBuilding CXX object CMakeFiles/sensores_distancia_node.dir/src/sensores_distancia_node.cpp.o[0m
+[2.253s] [100%] [32m[1mLinking CXX executable sensores_distancia_node[0m
+[2.346s] [100%] Built target sensores_distancia_node
+[2.356s] Invoked command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot -- -j20 -l20
+[2.362s] Invoking command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot
+[2.367s] -- Install configuration: ""
+[2.367s] -- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/sensores_robot/sensores_distancia_node
+[2.368s] -- Set non-toolchain portion of runtime path of "/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/sensores_robot/sensores_distancia_node" to ""
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/sensores_robot/sensores_reflectancia_node
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/ament_index/resource_index/package_run_dependencies/sensores_robot
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/ament_index/resource_index/parent_prefix_path/sensores_robot
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/environment/ament_prefix_path.sh
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/environment/ament_prefix_path.dsv
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/environment/path.sh
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/environment/path.dsv
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/local_setup.bash
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/local_setup.sh
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/local_setup.zsh
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/local_setup.dsv
+[2.368s] -- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.dsv
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/ament_index/resource_index/packages/sensores_robot
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/cmake/sensores_robotConfig.cmake
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/cmake/sensores_robotConfig-version.cmake
+[2.368s] -- Up-to-date: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.xml
+[2.369s] Invoked command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot

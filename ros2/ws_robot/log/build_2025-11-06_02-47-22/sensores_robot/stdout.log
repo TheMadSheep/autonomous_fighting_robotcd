@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/sensores_distancia_node.dir/src/sensores_distancia_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sensores_reflectancia_node.dir/src/sensores_reflectancia_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable sensores_distancia_node[0m
+[100%] [32m[1mLinking CXX executable sensores_reflectancia_node[0m
+[100%] Built target sensores_distancia_node
+[100%] Built target sensores_reflectancia_node
+-- Install configuration: ""
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/sensores_robot/sensores_distancia_node
+-- Set non-toolchain portion of runtime path of "/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/sensores_robot/sensores_distancia_node" to ""
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/sensores_robot/sensores_reflectancia_node
+-- Set non-toolchain portion of runtime path of "/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/sensores_robot/sensores_reflectancia_node" to ""
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/ament_index/resource_index/package_run_dependencies/sensores_robot
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/ament_index/resource_index/parent_prefix_path/sensores_robot
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/environment/ament_prefix_path.sh
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/environment/path.sh
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/environment/path.dsv
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/local_setup.bash
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/local_setup.sh
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/local_setup.zsh
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/local_setup.dsv
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.dsv
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/ament_index/resource_index/packages/sensores_robot
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/cmake/sensores_robotConfig.cmake
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/cmake/sensores_robotConfig-version.cmake
+-- Installing: /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.xml

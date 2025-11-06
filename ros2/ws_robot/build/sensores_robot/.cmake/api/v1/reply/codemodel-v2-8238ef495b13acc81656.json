@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7e0e95c117677fb9e99d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sensores_robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sensores_distancia_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensores_distancia_node-d8e4665f9a2f683d6a04.json",
+					"name" : "sensores_distancia_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensores_reflectancia_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensores_reflectancia_node-5e98bc124c28f646bf42.json",
+					"name" : "sensores_reflectancia_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensores_robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensores_robot_uninstall-6a099c9ca69f6ae1e247.json",
+					"name" : "sensores_robot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-510872fb7c3535b6901f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot",
+		"source" : "/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/src/sensores_robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

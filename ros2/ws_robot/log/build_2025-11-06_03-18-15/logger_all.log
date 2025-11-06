@@ -1,0 +1,207 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x773c403f19a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x773c3fb17d70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x773c3fb17d70>>, mixin_verb=('build',))
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.076s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.076s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/process_node) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/process_node) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/process_node) by extension 'ignore_ament_install'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/process_node) by extensions ['colcon_pkg']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/process_node) by extension 'colcon_pkg'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/process_node) by extensions ['colcon_meta']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/process_node) by extension 'colcon_meta'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/process_node) by extensions ['ros']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/process_node) by extension 'ros'
+[0.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/process_node' with type 'ros.ament_cmake' and name 'process_node'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensores_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensores_robot) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensores_robot) by extension 'ignore_ament_install'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensores_robot) by extensions ['colcon_pkg']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensores_robot) by extension 'colcon_pkg'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensores_robot) by extensions ['colcon_meta']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensores_robot) by extension 'colcon_meta'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensores_robot) by extensions ['ros']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensores_robot) by extension 'ros'
+[0.093s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensores_robot' with type 'ros.ament_cmake' and name 'sensores_robot'
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.103s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install
+[0.104s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 400 installed packages in /opt/ros/jazzy
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'process_node' build argument 'cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'process_node' build argument 'cmake_target' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'process_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'process_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'process_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'process_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'process_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'process_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'process_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.129s] DEBUG:colcon.colcon_core.verb:Building package 'process_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node', 'merge_install': False, 'path': '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/src/process_node', 'symlink_install': False, 'test_result_base': None}
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'sensores_robot' build argument 'cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'sensores_robot' build argument 'cmake_target' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'sensores_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'sensores_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'sensores_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'sensores_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'sensores_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'sensores_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'sensores_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.129s] DEBUG:colcon.colcon_core.verb:Building package 'sensores_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot', 'merge_install': False, 'path': '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/src/sensores_robot', 'symlink_install': False, 'test_result_base': None}
+[0.129s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.130s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/src/process_node' with build type 'ament_cmake'
+[0.130s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/src/process_node'
+[0.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.131s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.131s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.133s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/src/sensores_robot' with build type 'ament_cmake'
+[0.133s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/src/sensores_robot'
+[0.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/src/process_node -DCMAKE_INSTALL_PREFIX=/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node
+[0.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot -- -j20 -l20
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/src/process_node -DCMAKE_INSTALL_PREFIX=/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node
+[0.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node -- -j20 -l20
+[2.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot -- -j20 -l20
+[2.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot
+[2.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensores_robot)
+[2.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/sensores_robot
+[2.503s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot' for CMake module files
+[2.504s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot' for CMake config files
+[2.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensores_robot', 'cmake_prefix_path')
+[2.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/hook/cmake_prefix_path.ps1'
+[2.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/hook/cmake_prefix_path.dsv'
+[2.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/hook/cmake_prefix_path.sh'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/bin'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/pkgconfig/sensores_robot.pc'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/python3.12/site-packages'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/bin'
+[2.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.ps1'
+[2.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.dsv'
+[2.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.sh'
+[2.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.bash'
+[2.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.zsh'
+[2.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/colcon-core/packages/sensores_robot)
+[2.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensores_robot)
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot' for CMake module files
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot' for CMake config files
+[2.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensores_robot', 'cmake_prefix_path')
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/hook/cmake_prefix_path.ps1'
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/hook/cmake_prefix_path.dsv'
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/hook/cmake_prefix_path.sh'
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib'
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/bin'
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/pkgconfig/sensores_robot.pc'
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/lib/python3.12/site-packages'
+[2.509s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/bin'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.ps1'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.dsv'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.sh'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.bash'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/sensores_robot/package.zsh'
+[2.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/sensores_robot/share/colcon-core/packages/sensores_robot)
+[4.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node -- -j20 -l20
+[4.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node
+[4.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(process_node)
+[4.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/build/process_node
+[4.962s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node' for CMake module files
+[4.963s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node' for CMake config files
+[4.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('process_node', 'cmake_prefix_path')
+[4.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/hook/cmake_prefix_path.ps1'
+[4.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/hook/cmake_prefix_path.dsv'
+[4.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/hook/cmake_prefix_path.sh'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/lib'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/bin'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/lib/pkgconfig/process_node.pc'
+[4.966s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/lib/python3.12/site-packages'
+[4.966s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/bin'
+[4.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.ps1'
+[4.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.dsv'
+[4.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.sh'
+[4.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.bash'
+[4.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.zsh'
+[4.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/colcon-core/packages/process_node)
+[4.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(process_node)
+[4.968s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node' for CMake module files
+[4.969s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node' for CMake config files
+[4.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('process_node', 'cmake_prefix_path')
+[4.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/hook/cmake_prefix_path.ps1'
+[4.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/hook/cmake_prefix_path.dsv'
+[4.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/hook/cmake_prefix_path.sh'
+[4.969s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/lib'
+[4.969s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/bin'
+[4.969s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/lib/pkgconfig/process_node.pc'
+[4.970s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/lib/python3.12/site-packages'
+[4.970s] Level 1:colcon.colcon_core.environment:checking '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/bin'
+[4.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.ps1'
+[4.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.dsv'
+[4.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.sh'
+[4.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.bash'
+[4.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/process_node/package.zsh'
+[4.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/process_node/share/colcon-core/packages/process_node)
+[4.971s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.971s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.971s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.971s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.977s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.977s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.977s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.001s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/local_setup.ps1'
+[5.003s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/_local_setup_util_ps1.py'
+[5.004s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/setup.ps1'
+[5.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/local_setup.sh'
+[5.006s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/_local_setup_util_sh.py'
+[5.007s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/setup.sh'
+[5.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/local_setup.bash'
+[5.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/setup.bash'
+[5.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/local_setup.zsh'
+[5.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eduardobarbosa/Documents/autonomous_fighting_robot/ros2/ws_robot/install/setup.zsh'

@@ -1,0 +1,2 @@
+source;share/process_node/environment/ament_prefix_path.sh
+source;share/process_node/environment/path.sh
