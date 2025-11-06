@@ -9,12 +9,13 @@ class SensoresReflectancia : public rclcpp::Node
 public:
     SensoresReflectancia() : Node("sensores_reflectancia_node")
     {
-        // Criar publicadores para os sensores de reflectância
+        // criando publicadores para os sensores de reflectancia
         sensor1_pub_ = this->create_publisher<std_msgs::msg::Bool>("/sensor_reflectancia_1", 10);
         sensor2_pub_ = this->create_publisher<std_msgs::msg::Bool>("/sensor_reflectancia_2", 10);
 
-        // Criar o timer para publicar dados a cada 0.05 segundo
+        // criando o timer para publicar dados a cada 0.05 segundo
         timer_ = this->create_wall_timer(
+            // para funcionar em millisegundos std::chrono::milliseconds(50)
             std::chrono::seconds(1), std::bind(&SensoresReflectancia::timer_callback, this));
     }
 
